@@ -12,6 +12,9 @@
 		0833536B1F6D3BF000C1235D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 083353691F6D3BF000C1235D /* Main.storyboard */; };
 		0833536D1F6D3BF000C1235D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0833536C1F6D3BF000C1235D /* Assets.xcassets */; };
 		083353701F6D3BF000C1235D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0833536E1F6D3BF000C1235D /* LaunchScreen.storyboard */; };
+		0839925F1F76E1730027AE48 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0839925E1F76E1730027AE48 /* Team.swift */; };
+		083992651F7847CC0027AE48 /* RezultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083992641F7847CC0027AE48 /* RezultViewController.swift */; };
+		083992671F79A3AA0027AE48 /* RezultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083992661F79A3AA0027AE48 /* RezultTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		0833536C1F6D3BF000C1235D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0833536F1F6D3BF000C1235D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		083353711F6D3BF000C1235D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0839925E1F76E1730027AE48 /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		083992641F7847CC0027AE48 /* RezultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RezultViewController.swift; sourceTree = "<group>"; };
+		083992661F79A3AA0027AE48 /* RezultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RezultTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				083353651F6D3BF000C1235D /* AppDelegate.swift */,
 				083353671F6D3BF000C1235D /* ViewController.swift */,
 				083353691F6D3BF000C1235D /* Main.storyboard */,
+				0839925E1F76E1730027AE48 /* Team.swift */,
+				083992641F7847CC0027AE48 /* RezultViewController.swift */,
+				083992661F79A3AA0027AE48 /* RezultTableViewCell.swift */,
 				0833536C1F6D3BF000C1235D /* Assets.xcassets */,
 				0833536E1F6D3BF000C1235D /* LaunchScreen.storyboard */,
 				083353711F6D3BF000C1235D /* Info.plist */,
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				083992671F79A3AA0027AE48 /* RezultTableViewCell.swift in Sources */,
+				0839925F1F76E1730027AE48 /* Team.swift in Sources */,
 				083353681F6D3BF000C1235D /* ViewController.swift in Sources */,
+				083992651F7847CC0027AE48 /* RezultViewController.swift in Sources */,
 				083353661F6D3BF000C1235D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
